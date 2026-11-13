@@ -1,0 +1,6 @@
+Step,Action,Clusters,Centroids / Seeds
+Step 1 ,All points is in one cluster and computing centroid,ABCDEF,"[5.5, 5.5]"
+Step 2,"Farthest pair = A, F (distance 11.40); use as seeds",Seed 1: A | Seed 2: F,"[1.0, 2.0]; [10.0, 9.0]"
+Step 3,Assign each point to the nearer seed,C1: ABC | C2: DEF,-
+Step 4,Recompute centroids,C1: ABC | C2: DEF,"C1 [2.0, 3.0]; C2 [9.0, 8.0]"
+Step 5,Re-assign by distance to centroids: no point changes -> stop (2 clusters),C1: ABC | C2: DEF,"C1 [2.0, 3.0]; C2 [9.0, 8.0]"
